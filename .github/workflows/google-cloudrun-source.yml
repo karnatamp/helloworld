@@ -52,7 +52,7 @@ on:
 
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT_ID }} # TODO: update Google Cloud project id
-  SERVICE: YOUR_SERVICE_NAME # TODO: update Cloud Run service name
+  SERVICE: py-service # TODO: update Cloud Run service name
   REGION: europe-west1 # TODO: update Cloud Run service region
 
 jobs:
